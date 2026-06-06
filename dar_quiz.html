@@ -1,0 +1,197 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Digital Art Quiz</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <button><a href="index.html">Home</a></button>
+        <button style="text-decoration: underline;"><a href="dar_quiz.html"><strong>Digital Art
+                    Quiz</strong></a></button>
+    </nav>
+
+    <!-- Page title -->
+    <h1>About Digital Art</h1> <br>
+
+    <!-- Introduction Information -->
+    <div class="flex">
+        <div style="background-color: rgb(211, 247, 255);">
+            <p>"Digital art, or the digital arts, is artistic work that uses digital
+                technology as part of the creative or
+                presentational process." Including but not limited to design, animation, and photography, it is a world
+                of
+                endless creative possibilities. Digital art is a subject taught at Rangitoto College, later
+                branching off into various subjects such as design, photography and printmaking. Throughout the course,
+                students
+                learn to work with digital creation apps (e.g. Adobe Photoshop) as well as the general creative process.
+            </p>
+            <!-- Introduction Instructions -->
+            <p>This quiz will test your knowledge about the topic of digital art as a whole. Your score will be shown
+                upon submission, and any questions that are incomplete or unanswered will be shown with a red border.
+                Most importantly, good luck and have fun!</p>
+        </div>
+        <br>
+        <img src="dgt_quiz_photo.jpeg" width="500px" style="margin-right: 10px;">
+    </div>
+
+    <!-- Quiz title -->
+    <h2>
+        Aria's Digital Art Quiz
+    </h2>
+
+    <!-- Quiz -->
+    <form>
+        <div class="flex">
+
+            <!-- Block 1 -->
+            <div style="background-color: rgb(211, 247, 255);">
+                <!-- Input username -->
+                <div id="ask_name">
+                    <p>Please enter your name.</p>
+                    <input type="text" id="askname" placeholder="Enter your name here">
+                    <br> <br>
+                </div>
+
+                <!-- Question 1 -->
+                <div id="q1">
+                    <p>Who invented the first ever user-interactive digital art app?</p>
+                    <input type="radio" name="question1" id="john_whitney" value="0">
+                    <label for="john_whitney">John Whitney</label>
+                    <br>
+                    <input type="radio" name="question1" id="ivan_sutherland" value="1">
+                    <label for="ivan_sutherland">Ivan Sutherland</label>
+                    <br>
+                    <input type="radio" name="question1" id="andy_warhol" value="0">
+                    <label for="andy_warhol">Andy Warhol</label>
+                    <br>
+                    <input type="radio" name="question1" id="richard_shoup" value="0">
+                    <label for="richard_shoup">Richard Shoup</label>
+                    <br> <br>
+                </div>
+
+                <!-- Question 2 -->
+                <div id="q2">
+                    <p>Which of these apps is iPad-only?</p>
+                    <input type="radio" name="question2" id="photoshop" value="0">
+                    <label for="photoshop">Photoshop</label>
+                    <br>
+                    <input type="radio" name="question2" id="ibis_paint" value="0">
+                    <label for="ibis_paint">Ibis Paint</label>
+                    <br>
+                    <input type="radio" name="question2" id="procreate" value="1">
+                    <label for="procreate">Procreate</label>
+                    <br>
+                    <input type="radio" name="question2" id="clip_studio_paint" value="0">
+                    <label for="clip_studio_paint">Clip Studio Paint</label>
+                    <br> <br>
+                </div>
+
+                <!-- Question 3 -->
+                <div id="q3">
+                    <p>Who is the earliest-born person captured on camera (according to Wikipedia)?</p>
+                    <input type="radio" name="question3" id="conrad_heyer" value="1">
+                    <label for="conrad_heyer">Conrad Heyer</label>
+                    <br>
+                    <input type="radio" name="question3" id="john_owen" value="0">
+                    <label for="john_owen">John Owen</label>
+                    <br>
+                    <input type="radio" name="question3" id="caesar" value="0">
+                    <label for="caesar">Caesar</label>
+                    <br>
+                    <input type="radio" name="question3" id="hannah_stilley_gorby" value="0">
+                    <label for="hannah_stilley_gorby">Hannah Stilley Gorby</label>
+                    <br> <br>
+                </div>
+            </div>
+
+            <!-- Block 2 -->
+            <div style="background-color: rgb(211, 247, 255);">
+                <!-- Question 4 -->
+                <div id="q4">
+                    <p>What is the rule of thirds in photography?</p>
+                    <input type="radio" name="question4" id="separation" value="0">
+                    <label for="separation">Separating a photo into 3 clear sections of foreground, subject and
+                        background.</label>
+                    <br>
+                    <input type="radio" name="question4" id="definition" value="0">
+                    <label for="definition">Defining 3 main colours in a photo and using other colours to make the
+                        subject stand
+                        out.</label>
+                    <br>
+                    <input type="radio" name="question4" id="provision" value="0">
+                    <label for="provision">Always taking 3 photos to provide backup.</label>
+                    <br>
+                    <input type="radio" name="question4" id="division" value="1">
+                    <label for="division">Dividing a photo into 3-by-3 grids and placing the subject on an intersection
+                        of
+                        lines.</label>
+                    <br> <br>
+                </div>
+
+                <!-- Question 5 -->
+                <div id="q5">
+                    <p>Why do characters in animation typically only have 4 fingers? Choose all that apply.</p>
+                    <input type="checkbox" class="question5" id="budget" name="budget">
+                    <label for="budget">This saved budget due to less animation work.</label> <br>
+                    <input type="checkbox" class="question5" id="unease" name="unease">
+                    <label for="unease">5 fingers and 3 fingers looked uncanny in cartoons.</label> <br>
+                    <input type="checkbox" class="question5" id="honour" name="honour">
+                    <label for="honour">This originated from an animation honouring a person with Dupuytren’s
+                        Contracture.</label>
+                    <br>
+                    <input type="checkbox" class="question5" id="please" name="please">
+                    <label for="please">4 fingers was seen as pleasing during the time when animation first
+                        originated.</label> <br>
+                    <br>
+                </div>
+
+                <!-- Question 6 -->
+                <div id="q6">
+                    <p>How many principles of animation are there, as defined by Ollie Johnston and Frank Thomas? Please
+                        enter a natural number.</p>
+                    <input type="text" id="question6" placeholder="Enter your answer here"> <br> <br>
+                </div>
+
+                <!-- Question 7 -->
+                <div id="q7">
+                    <p>In which year was the first camera invented? Enter a four-digit integer.</p>
+                    <input type="text" id="question7" placeholder="Enter your answer here">
+                    <br> <br>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Submit button -->
+        <div style="display: flex; justify-content: center;">
+            <button type="button" onclick="checkAnswer()">Check Answers</button>
+        </div>
+    </form>
+
+    <!-- Results textbox -->
+    <div style="display: flex; justify-content: center;">
+        <textarea id="result" readonly cols="40" rows="3"
+            placeholder="Your results will appear here when you submit the quiz!"></textarea>
+    </div>
+
+    <br> <br>
+
+    <!-- Footer -->
+    <footer>Aria's Javascript Assessment Quiz is managed by Aria Han <br>
+        Contact Aria Han at 192398@cloud.rangitoto.school.nz <br>
+        © 2026 All rights reserved.
+    </footer>
+
+    <!-- Link to JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
