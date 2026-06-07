@@ -1,28 +1,34 @@
+/* Sets font and distance from edge of browser for all HTML */
 html {
     margin-left: 80px;
     margin-right: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* I changed the background colour for the entire website to a light yellow because it seemed to not be harsh on the eyes */
 body {
     background-color: rgb(255, 255, 253);
 }
 
+/* Headings of pages */
 h1 {
     font-size: 2.5rem;
     margin-top: 50px;
     text-align: center;
 }
 
+/* Less important headings */
 h2 {
     font-size: 1.7rem;
     text-align: center;
 }
 
+/* Body text */
 p {
     font-size: 1.2rem;
 }
 
+/* Clickable buttons */
 button {
     border-width: 0;
     background-color: dodgerblue;
@@ -31,6 +37,7 @@ button {
     border-radius: 3px;
 }
 
+/* Links for navigation bar */
 a {
     border-width: 0;
     background-color: dodgerblue;
@@ -44,15 +51,18 @@ a {
     font-size: 0.9rem;
 }
 
+/* Quiz label text */
 label {
     font-size: 1.1rem;
 }
 
+/* Results display textbox */
 textarea {
     font-size: 1.3rem;
     padding: 0.5rem;
 }
 
+/* Used to help style website by arranging two columns of questions instead of just one */
 div {
     margin-left: 10px;
     margin-right: 10px;
@@ -61,30 +71,36 @@ div {
     border-radius: 10px;
 }
 
+/* Styles images */
 img {
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
 }
 
+/* Styles navigation bar */
 nav {
     background-color: rgb(211, 247, 255);
     padding: 10px;
 }
 
+/* Styles footer */
 footer {
     background-color: rgb(211, 247, 255);
     padding: 10px;
 }
 
+/* Helps with 2-column layout */
 .flex {
     display: flex;
 }
 
+/* Function for wrong answers that sets border as red */
 .wrong_answer {
     border: solid 1px red;
 }
 
+/* Function for right answers that sets border as green */
 .right_answer {
     border: solid 2px green;
 }
