@@ -35,8 +35,13 @@ a {
     border-width: 0;
     background-color: dodgerblue;
     color: white;
-    padding: 0.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.4rem;
     text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9rem;
 }
 
 label {
