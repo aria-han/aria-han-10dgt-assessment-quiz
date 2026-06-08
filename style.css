@@ -95,12 +95,12 @@ footer {
     display: flex;
 }
 
-/* Function for wrong answers that sets border as red */
+/* Prepares class for function for wrong answers that sets border as red */
 .wrong_answer {
     border: solid 1px red;
 }
 
-/* Function for right answers that sets border as green */
+/* Prepares class for function for right answers that sets border as green */
 .right_answer {
     border: solid 2px green;
 }
