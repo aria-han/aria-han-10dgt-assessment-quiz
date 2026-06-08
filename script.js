@@ -96,7 +96,7 @@ function checkAnswer() {
             document.getElementById("result").value = `Perfect score!!! Congratulations, ${username}—you got 100% on this quiz. Have you considered becoming a teacher?`
         }
 
-        // Function that adds red border to incomplete/unanswered questions and green border to correct answers
+        // If else statement that adds red border to incomplete/unanswered questions and green border to correct answers
         if (q1score != 1) {
             displayWrong(document.getElementById("q1"));
         } else {
